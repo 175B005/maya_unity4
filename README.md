@@ -27,4 +27,4 @@ maya unity 連携機能４（アニメーション　リグ・クリーチャア
 ｄ７
 1. unity側でアニメーションを設定できたら、さあ動かして見ましょう。
 
- [前ページ](https://github.com/175B005/maya_unity3)| [次ページ](https://github.com/175B005/maya_unity5)|[目次](https://github.com/175B005/maya_unity_index)
+ [前ページ](https://github.com/175B005/maya_unity3a)| [次ページ](https://github.com/175B005/maya_unity5)|[目次](https://github.com/175B005/maya_unity_index)
