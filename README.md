@@ -1,12 +1,12 @@
 # maya_unity4
 maya unity 連携機能４（アニメーション　リグ・クリーチャアニメ編）
 
-### まだです。。
+### まだです。。https://github.com/dat17/gp1/raw/master/CollisionRensyu.zip
 
 1. 今回はまず、[前回の手順]()を元に、自分の作ったモデルにアニメーションをつけていきたいと思います。
 1. 人型であれば、humanoidが使えるので、クイックリグでポイッとできてしまうので、  
 前回のようにすぐできるのですが、今回はジョイントの設定から、ひとつずつやっていきます。
-1. こんなモデルを作りました。[LOBOTERモデルデータ](https://github.com/175B005/maya_unity4/blob/master/directionf.zip)  
+1. こんなモデルを作りました。[LOBOTERモデルデータ](https://github.com/175B005/maya_unity4/raw/master/directionf.zip)  
 （作り方は[次のページ]()で紹介しています。）   
 ｄ１（モデル画像）りんくモデルでーたあっぷ
 1. 前回と同様にリグをつけていきます。クイックリグは使用しません。
