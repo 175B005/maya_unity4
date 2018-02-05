@@ -19,13 +19,37 @@ or　リギングショートカット< 関節のマーク　でも可  
 ![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction9-3.jpg)
 1. Ctrl + Dでコピーできます。複製して関節と先端にジョイントをつけます。  
 ![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction10-3.jpg)
-1. 次は、接続していきましょう。
+1. 次は、接続していきましょう。  
+子したいジョイント→親になるジョイントの順に選択。　スケルトン< ジョイントの接続　  
+から接続メニューを出し、「親ジョイント」の方を選択。  
 ![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction11-3.jpg)
-1. ベイク
-ｄ４ｄ５
-1. 
-1. 
-1. 
+1. 親ジョイント：親子関係を作ります。
+1. ジョイントの接続：兄弟関係を作ります。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/directionj.jpg)
+1. 足部分を作って、、、（ジョイントにもしっかり名前をつけています。（左）  
+※アウトライナでみると、親子になっているのがはっきりとわかります。。）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction13-3.jpg)
+1. 最後に、全てをBodyの子にして行きます。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction14-3.jpg)
+1. スキンをバインドをします。まず、オブジェクト全選択。  
+（アウトライナから選択するほうが、正確にできると思います。）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction15-3.jpg)
+1. Shift 押しながら、さっきつけたリグも選択。  
+上部メニュー< スキン< スキンのバインド　からバインドをかけます。(これでモデルとリグがくっつきました。)  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction16-3.jpg)
+1. ですが、このまま動かすといらないものまで動いてしまうので、調整します。
+1. スキン< スキンのウェイトペイント　を選択。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction17-3.jpg)
+1. ペイントのメニューは枠線上から、ジョイントの詳細。ツールのモード。  
+ペイントの筆の強さ。カラーの欄は、見やすくするための色です。（赤にしてます。）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction18-3.jpg)
+1. 初めに初期化しておきます。　スキン< 既定のウェイトをリセット  
+これで、自動でついていた、ウェイトがリセットされました。（ある程度残りますが、稼動部なので、消せないです。）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction23-3.jpg)
+1. ペイントしていきましょう。  
+ペイントするジョイントを選択。さっきのツールモードから、ペイントを選択。  
+稼動させる場所。（そのジョイントの付近）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction19-3.jpg)
 1. 
 1. では、動かしていきましょう。
 1. 前回、前々回と同様の手順で動かしたい範囲で、キーを設定します。（前回ページ参照）
