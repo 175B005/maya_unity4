@@ -69,7 +69,10 @@ or　リギングショートカット< 関節のマーク　でも可  
 　 下位層のジョイントを動かしても、親が回転しないってコトです（関節の稼動域の問題で）。  
  　関節は反対には曲がりませんよね、、ひゃー怖い。。  
    物理的に動かせないので、全部作っていく必要があります。。  
-![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction27-3.jpg)
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction27-3.jpg)  
+![](https://raw.githubusercontent.com/175B005/image2/master/directionf1.jpg)  
+![](https://raw.githubusercontent.com/175B005/image2/master/directionf2.jpg)  
+![](https://raw.githubusercontent.com/175B005/image2/master/directionf3.jpg)  
 
 ---
 
