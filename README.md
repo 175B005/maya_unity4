@@ -50,13 +50,31 @@ or　リギングショートカット< 関節のマーク　でも可  
 ペイントするジョイントを選択。さっきのツールモードから、ペイントを選択。  
 稼動させる場所。（そのジョイントの付近）  
 ![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction19-3.jpg)
-1. 
-1. では、動かしていきましょう。
-1. 前回、前々回と同様の手順で動かしたい範囲で、キーを設定します。（前回ページ参照）
-1. アニメーションを付け終わりました。ではunityで動かしていきます。  
-ｄ６
-1. 今回のボーン(リグ)はHumanoidでは無いので、Genericにしておきます。  
-ｄ７
-1. unity側でアニメーションを設定できたら、さあ動かして見ましょう。
+1. 第二ジョイント（関節）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction20-3.jpg)
+1. 第三ジョイント（先端）  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction21-3.jpg)
+1. Shiftを押しながら「ペイント」すると、「SM」と出るので、その状態は、マイナスのペイント（削除）になる。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction24-3.jpg)
+1. 完成でーす。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction25-3.jpg)
+
+---
+
+1. ではアニメをつけていきましょう。手順は前回と同じ！  
+下のフレームを 1 に設定したら、初期のアニメをまず登録。キーの値を設定します。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction26-3.jpg)
+1. 次に設定したいフレームを選択、キー値設定。（間は自動で動いてくれる。）  
+※ここで注意しておきたいのは、前回と違って、「コントロールリグ」ではないので、  
+　 下位層のジョイントを動かしても、親が回転しないってコトです（関節の稼動域の問題で）。  
+ 　関節は反対には曲がりませんよね、、ひゃー怖い。。  
+   物理的に動かせないので、全部作っていく必要があります。。  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/direction27-3.jpg)
+
+---
+
+1. 今回のボーン(リグ)はHumanoidでは無いので、Genericにしておきます。(前回参照)  
+![](https://raw.githubusercontent.com/175B005/maya_unity3/master/directionx18.jpg)
+1. 前回ページを参考に、unity側でアニメーションを設定できたら、さあ動かして見ましょう。
 
  [前ページ](https://github.com/175B005/maya_unity3a)| [次ページ](https://github.com/175B005/maya_unity5)|[目次](https://github.com/175B005/maya_unity_index)
