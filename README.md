@@ -2,8 +2,7 @@
 maya unity 連携機能４（アニメーション　リグ・クリーチャアニメ編）
 
 ### まだです。
-
-1. 今回はまず、[前回の手順](https://github.com/175B005/maya_unity3a)を元に、自分の作ったモデルにアニメーションをつけていきたいと思います。
+1. 今回はまず、[前々回の手順](https://github.com/175B005/maya_unity2)を元に、自分の作ったモデルにアニメーションをつけていきたいと思います。
 1. 人型であれば、humanoidが使えるので、クイックリグでポイッとできてしまうので、  
 前回のようにすぐできるのですが、今回はジョイントの設定から、ひとつずつやっていきます。
 1. こんなモデルを作りました。[LOBOTERモデルデータ](https://github.com/175B005/maya_unity4/raw/master/directionf.zip)  
@@ -74,8 +73,8 @@ or　リギングショートカット< 関節のマーク　でも可  
 
 ---
 
-1. 今回のボーン(リグ)はHumanoidでは無いので、Genericにしておきます。(前回参照)  
+1. 今回のボーン(リグ)はHumanoidでは無いので、Genericにしておきます。(前回参照)  
 ![](https://raw.githubusercontent.com/175B005/maya_unity3/master/directionx18.jpg)
-1. 前回ページを参考に、unity側でアニメーションを設定できたら、さあ動かして見ましょう。
+1. 前々回ページを参考に、unity側でアニメーションを設定できたら、さあ動かして見ましょう。
 
  [前ページ](https://github.com/175B005/maya_unity3a)| [次ページ](https://github.com/175B005/maya_unity5)|[目次](https://github.com/175B005/maya_unity_index)
